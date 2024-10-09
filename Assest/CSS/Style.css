@@ -1,0 +1,215 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    font-weight: 100;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* <!-- NAVIGATION --> */
+
+.headerNavigation {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0 20px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.headerNavigation img,
+.headerNavigation a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.headerNavigation a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* HEADERBANNER */
+
+.headerBanner {
+    width: 100%;
+    height: 350px;
+    background: url("/Assest/images/slide1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.headerBanner h2 {
+    margin-top: 150px;
+}
+
+a.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    padding: 15px;
+}
+
+a.btn:hover {
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+/* FIRST-CARDS */
+
+.firstCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.firstCards div img {
+    width: 100%;
+}
+
+.firstCards div a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* <!-- CONTENT-BANNER --> */
+
+.contentBanner {
+    width: 100%;
+    height: 350px;
+    background: url("/Assest/images/xbox.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 0px 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.contentBanner p {
+    width: 50%;
+}
+
+/* <!-- SECOND-CARDS --> */
+
+.secondCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secondCards div img {
+    width: 100%;
+}
+
+.secondCards div a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* <!-- FOOTER-BANNER --> */
+
+.footerBanner {
+    width: 100%;
+    height: 350px;
+    background: url("/Assest/images/carbon.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 0px 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.footerBanner p {
+    width: 50%;
+}
+
+.footerBanner p,
+.footerBanner h2 {
+    color: snow;
+}
+
+.footerBanner a.btn {
+    background-color: snow;
+    color: #000;
+    border-radius: 3px;
+}
+
+.footerBanner a.btn:hover {
+    box-shadow: 0px 0px 3px 0px snow;
+}
+
+/* <!-- ICONS --> */
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.icons img {
+    margin-right: -20px;
+}
+
+/*  <!-- FOOTER --> */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    background-color: #ccc;
+    line-height: 2;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    box-sizing: border-box;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* <!-- UNDER-FOOTER --> */
+
+.underFooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccc;
+    font-size: 12px;
+    padding: 20px 100px 0px 100px;
+}
+.underFooter ul{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+}
+.underFooter ul li{
+    list-style-type: none;
+}
+.underFooter ul li a{
+    text-decoration: none;
+    color: black;
+}

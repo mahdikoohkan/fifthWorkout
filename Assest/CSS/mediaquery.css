@@ -1,0 +1,9 @@
+@media (max-width:768px){
+    .firstCards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
